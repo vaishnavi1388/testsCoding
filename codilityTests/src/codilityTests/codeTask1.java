@@ -8,7 +8,10 @@ public class codeTask1 {
 	String b = Integer.toString(B);
 	//System.out.println(b.indexOf(a)); // prints "4"
 	//int returnValue =Integer.parseInt(b); // prints "22"
-	return b.indexOf(a);// returning the position of A in B, if there is no match then it will return -1 
-	}
+	
+	int x= b.indexOf(a);// returning the position of A in B, if there is no match then it will return -1 
+	System.out.println("saving"+x);
+	return x;
+	 }
 						
 }
